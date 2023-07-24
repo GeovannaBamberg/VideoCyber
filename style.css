@@ -5,18 +5,63 @@ body{
     font-size: 24px;
     align-content: center;
     text-align: center;
-    margin: 80px 10px 80px 10px;
+    margin: auto;
  
 }
+header{
+    background-color: rgb(12, 66, 90);
+    margin: auto;
+}
 h1{
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 5px;
+    color: rgb(255, 255, 255);
     
 }
   
-a{
-    color: aliceblue;
+nav{
+    font-size: 0.8em;
     
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+h2{
+    font-size: 2em;
+    font-weight: normal;
+    margin-top: 2px;
+}
+main{
+    background-color: rgb(13, 18, 24);
+    margin: auto;
+}
+div a{
+    text-decoration: overline;
+    color: aliceblue;
+
+}
+button{
+    background-color: rgba(12, 67, 90, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    border: none;
+    font-size: 1em;
+    font-weight: normal;
+}
+form{
+    background-color: rgb(44, 71, 94);
+}
+form button{
+    border-color: rgb(251, 251, 251);
+    border-style: solid;
+    margin: 5px;
+}
+label{
+    font-size: 0.5em;
 }
 a img{
    

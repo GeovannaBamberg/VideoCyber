@@ -7,14 +7,34 @@
     <title>HTML/CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script src="script.js"></script>
 <body>
-    <h1>Curso de HTML5 e CSS3</h1>
-    
-    <div class="imgModulos">
-            <a href="primeiroModuloDoCurso.html"> <img src="assets/imagens/html1.png" alt="Primeiro Modulo do Curso html "></a> 
-            <a href="segundoModuloDoCurso.html"> <img src="assets/imagens/html2.png" alt="Segundo Modulo do Curso html"></a> 
-            <a href="terceiroModuloDoCurso.html"> <img src="assets/imagens/html3.png" alt="Terceiro Modulo do Curso html"></a> 
-            <a href="quartoModuloDoCurso.html"> <img src="assets/imagens/html4.png" alt="Quarto Modulo do Curso html"></a> 
-    </div>
+    <header>
+        <h1>CURSOS</h1>
+        <nav>
+             <a href="#">Sobre</a>
+             <button onclick="adicionarCurso()" id="buttonAdicionarCurso"> Adicionar</button>
+
+        </nav>
+    </header>
+    <main>
+        <h2>Curso de HTML5 e CSS3</h2>
+
+        <form>
+            <label>Url do curso</label>
+            <input type="url" name="" id="">
+            <br>
+            <label>Imagem do curso</label>
+            <input type="file" name="" id="">
+            <button onabort="formularioCurso">Concluir</button>
+        </form>
+        
+        <section class="imgModulos">
+                <a href="primeiroModuloDoCurso.html"> <img src="assets/imagens/html1.png" alt="Primeiro Modulo do Curso html "></a>
+                <a href="segundoModuloDoCurso.html"> <img src="assets/imagens/html2.png" alt="Segundo Modulo do Curso html"></a>
+                <a href="terceiroModuloDoCurso.html"> <img src="assets/imagens/html3.png" alt="Terceiro Modulo do Curso html"></a>
+                <a href="quartoModuloDoCurso.html"> <img src="assets/imagens/html4.png" alt="Quarto Modulo do Curso html"></a>
+        </section>
+    </main>
 </body>
 </html>
